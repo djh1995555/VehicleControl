@@ -190,7 +190,7 @@ change the **TARGET_PLOT** to choose which plot you want to see during simulatio
 ![Trajectory Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/OLQR_Controller/OLQR_Controller_10_Path.png)
 ![Velocity Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/OLQR_Controller/OLQR_Controller_10_Velocity.png)
 ![Heading Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/OLQR_Controller/OLQR_Controller_10_Heading.png)
-![Lateral Distance Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/OLQR_Controller/OLQR_ControllerR_10_Lateral_Distance_Error.png)
+![Lateral Distance Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/OLQR_Controller/OLQR_Controller_10_Lateral_Distance_Error.png)
 ![Velocity Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/OLQR_Controller/OLQR_Controller_10_Velocity_Error.png)
 ![Heading Erro](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/OLQR_Controller/OLQR_Controller_10_Heading_Error.png)
 **LQR Controller V=15m/s**
