@@ -228,6 +228,22 @@ change the **TARGET_PLOT** to choose which plot you want to see during simulatio
 ![Velocity Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/MPC_Controller/MPC_Controller_15_Velocity.png)
 ![Heading Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/MPC_Controller/MPC_Controller_15_Heading.png)
 
+### Error Comparison  
+
+**V=10m/s**
+![Velocity Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Error_Comparison/V=10/Velocity_Error_Comparison_when_V=10.png)
+![Lateral Distance Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Error_Comparison/V=10/Lateral_Distance_Error_Comparison_when_V=10.png)
+![Heading Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Error_Comparison/V=10/Heading_Error_Comparison_when_V=10.png)
+**V=15m/s**
+![Velocity Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Error_Comparison/V=10/Velocity_Error_Comparison_when_V=15.png)
+![Lateral Distance Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Error_Comparison/V=10/Lateral_Distance_Error_Comparison_when_V=15.png)
+![Heading Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Error_Comparison/V=10/Heading_Error_Comparison_when_V=15.png)
+**V=20m/s**
+![Velocity Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Error_Comparison/V=10/Velocity_Error_Comparison_when_V=20.png)
+![Lateral Distance Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Error_Comparison/V=10/Lateral_Distance_Error_Comparison_when_V=20.png)
+![Heading Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Error_Comparison/V=10/Heading_Error_Comparison_when_V=20.png)
+
+
 
 ## Plot
 ```
