@@ -1,0 +1,16 @@
+float64 heading_angle
+float64 steering_wheel_angle_actual
+float64 steering_wheel_expected
+float64 steering_wheel_error
+float64 steering_wheel_cmd
+
+float64 fl_steering_angle_actual
+float64 fr_steering_angle_actual
+float64 single_track_steering_angle
+float64 fl_steering_angle_expected
+float64 fr_steering_angle_expected
+float64 fl_steering_error
+float64 fr_steering_error
+float64 fl_steering_cmd
+float64 fr_steering_cmd
+

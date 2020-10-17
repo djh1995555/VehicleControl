@@ -1,0 +1,17 @@
+float64 vel_from_localization
+float64 vel_from_wheels
+float64 acceleration
+float64 traveled_distance
+float64 fl_wheel_angular_velocity
+float64 fr_wheel_angular_velocity
+float64 bl_wheel_angular_velocity
+float64 br_wheel_angular_velocity
+float64 gas_percent
+float64 fl_gas_torque
+float64 fr_gas_torque
+float64 bl_gas_torque
+float64 br_gas_torque
+float64 fl_brake_Torque
+float64 fr_brake_torque
+float64 bl_brake_torque
+float64 br_brake_torque

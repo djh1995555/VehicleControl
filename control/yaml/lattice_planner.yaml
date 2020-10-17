@@ -1,0 +1,25 @@
+Lattice_Planner/Max_Vel: 20.0
+Lattice_Planner/Max_Acc: 4.0
+Lattice_Planner/Max_Brake: -4.0
+
+Lattice_Planner/Max_Curvature: 0.3
+Lattice_Planner/Max_Road_Width: 5.0
+Lattice_Planner/Delta_Road_Width: 0.5
+
+Lattice_Planner/Delta_T: 0.1
+Lattice_Planner/Max_T: 5.0
+Lattice_Planner/Min_T: 4.0
+
+Lattice_Planner/Delta_S: 20
+Lattice_Planner/Max_S: 100
+Lattice_Planner/Min_S: 30
+
+Lattice_Planner/Lat_Num: 10
+Lattice_Planner/Lon_Num: 5
+
+Lattice_Planner/Kj: 1
+Lattice_Planner/Kt: 0.1
+Lattice_Planner/Kd: 0.1
+Lattice_Planner/Ks: 0.1
+
+Lattice_Planner/file_name: "mat_trajectory.txt"

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <param name="test_trajectory_path" value="/home/djh/ControlModule/src/plan/test_trajectories/mat_trajectory_10.txt"/>
+  <node pkg="plan" type="publish_path_once" name="trajectory_publisher"/>  
+</launch>

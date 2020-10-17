@@ -1,0 +1,53 @@
+Planner=Lattice Planner
+Ts=0.01
+Target_velocity=10
+Lateral_sample_num=4
+Lateral_sample_interval=5
+Station_sample_num=4
+Station_sample_interval=5
+Time_sample_num=5
+Time_sample_interval=10
+# 10 means the interval is 10% of the approximate time (distance between obstacle and vehicle/current velocity)
+Activate_planning_function=1
+SEARCH_LENGTH=500
+Obstacles_num=3
+Frame_forward_time=4
+Frame_safe_distance=1
+Frame_forward_distance_limit=25
+Speed_deque_length=50
+# The following vehicle attributes come from the model file (prius.urdf), can not be changed.
+# If you want to change them, you have to modify the model file. About physical attributes, you can modify the parameters of axle and chassis. About the performance attributes, you can modify the parameter in Pulgin named pruis_hybrid_drive.
+#Physical Attributes
+G=9.8
+mass=1356
+length=4.485
+width=1.745
+height=1.510
+friction_coefficient=0.9
+wheel_base=2.86
+front_wheel_base=1.41
+rear_wheel_base=1.45
+front_track=1.534
+rear_track=1.586
+wheel_radius=0.3
+Ix=2581.1335
+Iy=591.3084
+Iz=2681.9500
+#Performance Attributes
+brake_distance_coefficient=1
+chassis_aero_force_gain=0.63045
+max_front_torque=859.4004
+max_back_torque=0
+max_front_brake_torque=1031.2805
+max_back_brake_torque=687.5203
+max_speed=37.9983
+max_steer=0.6458
+gas_efficiency=0.371
+battery_charge_watt_hours=291
+battery_discharge_watt_hours=214
+flwheel_steering_p_gain=10000
+frwheel_steering_p_gain=10000
+flwheel_steering_i_gain=0
+frwheel_steering_i_gain=0
+flwheel_steering_d_gain=300
+frwheel_steering_d_gain=301

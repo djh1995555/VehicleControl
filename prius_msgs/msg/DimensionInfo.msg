@@ -1,0 +1,9 @@
+float64 wheel_base
+float64 front_wheel_base
+float64 rear_wheel_base
+float64 track
+float64 mass
+float64 front_cornering_stiffness
+float64 rear_cornering_stiffness
+float64 max_friction_coefficient
+float64 Iz

@@ -1,0 +1,90 @@
+LONGITUDINAL_CONTROLLER=Double PID Controller
+LATERAL_CONTROLLER=Pure Pursuit Controller
+CENTRALIZED_CONTROLLER=LQR Controller
+# The optional LONGITUDINAL_CONTROLLER are "Double PID Controller","Feedforward PID Controller"
+# The optional LATERAL_CONTROLLER are "Pure Pursuit Controller","Rear Wheel Feedback Controller","Stanley Controller","LQR Controller","MPC Controller"
+# The optional CENTRALIZED_CONTROLLER are "MPC Controller"
+Ts=0.01
+CONTROLLER_NUM=2
+# Double PID parameters
+VELOCITY_KP=40
+VELOCITY_KI=0
+VELOCITY_KD=0
+ACC_KP=0.03
+ACC_KI=0.01
+ACC_KD=0
+# Feedforward PID
+FEEDFORWARD_ENABLE=0
+SLOPE_COMPENSATION_ENABLE=1
+FEEDFORWARD_GAIN=300
+DETECTION_LENGTH=5
+ERROR_THRESHOLD=0.15
+KP=800
+KI=0.3
+KD=0
+# Pure Pursuit
+PURE_PURSUIT_PREVIEW_LENGTH=50
+# Stanley
+VELOCITY_GAIN=1
+# Rear Wheel Feedback
+YAW_ERROR_GAIN=7.5
+LATERAL_ERROR_GAIN=0.5
+# LQR
+LQR_PREVIEW_LENGTH=200
+LQR_PREDICTION_ITERATION_NUM=10
+PREVIEW_FEEDFORWARD_COEFFICIENT=0.3
+PREDICTION_ENABLED=1
+LQR_R=100
+LQR_Q_0_0=5
+LQR_Q_1_1=0.1
+LQR_Q_2_2=1000
+SOLVE_ITERATION_TOLERANCE=0.01
+MAX_ITERATION_NUM=100
+# MPC
+MPC_R_0_0=0.1
+MPC_R_1_1=200
+MPC_Q_0_0=10
+MPC_Q_1_1=10
+MPC_Q_2_2=200
+MPC_CONTROL_LENGTH=20
+MPC_PREDICT_LENGTH=20
+# Trajectory Analyzer parameters
+SEARCH_LENGTH=500
+#  Vehicle state estimation
+SLOPE_THRESHOLD=1
+PITCH_DEQUE_LENGTH=5
+FILTER_METHOD=1
+# 1 menas "median method",2 means "slide window mean method"
+# The following vehicle attributes come from the model file (prius.urdf), can not be changed.
+# If you want to change them, you have to modify the model file. About physical attributes, you can modify the parameters of axle and chassis. About the performance attributes, you can modify the parameter in Pulgin named pruis_hybrid_drive.
+#Physical Attributes
+G=9.8
+mass=1356
+friction_coefficient=0.9
+wheel_base=2.86
+front_wheel_base=1.41
+rear_wheel_base=1.45
+front_track=1.534
+rear_track=1.586
+wheel_radius=0.3
+Ix=2581.1335
+Iy=591.3084
+Iz=2681.9500
+#Performance Attributes
+brake_distance_coefficient=1
+chassis_aero_force_gain=0.63045
+max_front_torque=859.4004
+max_back_torque=0
+max_front_brake_torque=1031.2805
+max_back_brake_torque=687.5203
+max_speed=37.9983
+max_steer=0.6458
+gas_efficiency=0.371
+battery_charge_watt_hours=291
+battery_discharge_watt_hours=214
+flwheel_steering_p_gain=10000
+frwheel_steering_p_gain=10000
+flwheel_steering_i_gain=0
+frwheel_steering_i_gain=0
+flwheel_steering_d_gain=300
+frwheel_steering_d_gain=300

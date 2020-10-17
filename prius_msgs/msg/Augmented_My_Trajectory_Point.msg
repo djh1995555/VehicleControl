@@ -1,0 +1,18 @@
+My_Trajectory_Point trajectory_point
+VehicleInfo vehicle_info
+float64 goal_id
+float64 preview_id
+float64 lateral_distance_error
+float64 max_lateral_distance_error
+float64 average_lateral_distance_error
+float64 velocity_error
+float64 max_velocity_error
+float64 average_velocity_error
+float64 heading_error
+float64 max_heading_error
+float64 average_heading_error
+float64 computational_time
+float64 average_computational_time
+float64 max_computational_time
+float64 slope
+

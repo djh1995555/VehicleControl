@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="plan" type="PlanningMain" name="local_planning"/>  
+</launch>
