@@ -143,74 +143,87 @@ change the **TARGET_PLOT** to choose which plot you want to see during simulatio
 ![velocity tracking](https://github.com/djh1995555/VehicleControl/blob/master/result_plot/velocity_tracking_result.gif)
 ![heading tracking](https://github.com/djh1995555/VehicleControl/blob/master/result_plot/heading_tracking_result.gif)
 ### Pure Pursuit Controller  
-**V=10m/s**
+**Pure Pursuit Controller V=10m/s**
 ![Trajectory Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Pure_Pursuit_Controller/Pure_Pursuit_Controller_10_Path.png)
 ![Velocity Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Pure_Pursuit_Controller/Pure_Pursuit_Controller_10_Velocity.png)
 ![Heading Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Pure_Pursuit_Controller/Pure_Pursuit_Controller_10_Heading.png)
 ![Lateral Distance Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Pure_Pursuit_Controller/Pure_Pursuit_Controller_10_Lateral_Distance_Error.png)
 ![Velocity Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Pure_Pursuit_Controller/Pure_Pursuit_Controller_10_Velocity_Error.png)
 ![Heading Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Pure_Pursuit_Controller/Pure_Pursuit_Controller_10_Heading_Error.png)
-**V=15m/s**
+**Pure Pursuit Controller V=15m/s**
 ![Trajectory Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Pure_Pursuit_Controller/Pure_Pursuit_Controller_15_Path.png)
 ![Velocity Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Pure_Pursuit_Controller/Pure_Pursuit_Controller_15_Velocity.png)
 ![Heading Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Pure_Pursuit_Controller/Pure_Pursuit_Controller_15_Heading.png)
 
 ### Stanley Controller  
-**V=10m/s**
+**Stanley Controller  V=10m/s**
 ![Trajectory Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Stanley_Controller/Stanley_Controller_10_Path.png)
 ![Velocity Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Stanley_Controller/Stanley_Controller_10_Velocity.png)
 ![Heading Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Stanley_Controller/Stanley_Controller_10_Heading.png)
 ![Lateral Distance Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Stanley_Controller/Stanley_Controller_10_Lateral_Distance_Error.png)
 ![Velocity Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Stanley_Controller/Stanley_Controller_10_Velocity_Error.png)
 ![Heading Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Stanley_Controller/Stanley_Controller_10_Heading_Error.png)
-**V=15m/s**
+**Stanley Controller  V=15m/s**
 ![Trajectory Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Stanley_Controller/Stanley_Controller_15_Path.png)
 ![Velocity Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Stanley_Controller/Stanley_Controller_15_Velocity.png)
 ![Heading Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Stanley_Controller/Stanley_Controller_15_Heading.png)
 
 ### Rear Wheel Feedback Controller  
+
+**Rear Wheel Feedback Controller V=10m/s**
+
 ![Trajectory Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Rear_Wheel_Feedback_Controller/Rear_Wheel_Feedback_Controller_10_Path.png)
 ![Velocity Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Rear_Wheel_Feedback_Controller/Rear_Wheel_Feedback_Controller_10_Velocity.png)
 ![Heading Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Rear_Wheel_Feedback_Controller/Rear_Wheel_Feedback_Controller_10_Heading.png)
 ![Lateral Distance Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Rear_Wheel_Feedback_Controller/Rear_Wheel_Feedback_Controller_10_Lateral_Distance_Error.png)
 ![Velocity Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Rear_Wheel_Feedback_Controller/Rear_Wheel_Feedback_Controller_10_Velocity_Error.png)
 ![Heading Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Rear_Wheel_Feedback_Controller/Rear_Wheel_Feedback_Controller_10_Heading_Error.png)
-**V=15m/s**
+**Rear Wheel Feedback Controller   V=15m/s**
 ![Trajectory Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Rear_Wheel_Feedback_Controller/Rear_Wheel_Feedback_Controller_15_Path.png)
 ![Velocity Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Rear_Wheel_Feedback_Controller/Rear_Wheel_Feedback_Controller_15_Velocity.png)
 ![Heading Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/Rear_Wheel_Feedback_Controller/Rear_Wheel_Feedback_Controller_15_Heading.png)
 
 ### LQR  
+
+**LQR Controller V=10m/s**
+
 ![Trajectory Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/OLQR_Controller/OLQR_Controller_10_Path.png)
 ![Velocity Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/OLQR_Controller/OLQR_Controller_10_Velocity.png)
 ![Heading Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/OLQR_Controller/OLQR_Controller_10_Heading.png)
 ![Lateral Distance Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/OLQR_Controller/OLQR_ControllerR_10_Lateral_Distance_Error.png)
 ![Velocity Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/OLQR_Controller/OLQR_Controller_10_Velocity_Error.png)
 ![Heading Erro](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/OLQR_Controller/OLQR_Controller_10_Heading_Error.png)
-**V=15m/s**
+**LQR Controller V=15m/s**
 ![Trajectory Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/OLQR_Controller/OLQR_Controller_15_Path.png)
 ![Velocity Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/OLQR_Controller/OLQR_Controller_15_Velocity.png)
 ![Heading Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/OLQR_Controller/OLQR_Controller_15_Heading.png)
+
 ### LQR with prediction  
+
+**LQR Controller with prediction V=10m/s**
+
 ![Trajectory Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/LQR_Controller/LQR_Controller_10_Path.png)
 ![Velocity Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/LQR_Controller/LQR_Controller_10_Velocity.png)
 ![Heading Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/LQR_Controller/LQR_Controller_10_Heading.png)
 ![Lateral Distance Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/LQR_Controller/LQR_Controller_10_Lateral_Distance_Error.png)
 ![Velocity Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/LQR_Controller/LQR_Controller_10_Velocity_Error.png)
 ![Heading Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/LQR_Controller/LQR_Controller_10_Heading_Error.png)
-**V=15m/s**
+**LQR Controller with prediction V=15m/s**
 ![Trajectory Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/LQR_Controller/LQR_Controller_15_Path.png)
 ![Velocity Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/LQR_Controller/LQR_Controller_15_Velocity.png)
 ![Heading Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/LQR_Controller/LQR_Controller_15_Heading.png)
 
 ### MPC  
+
+**MPC Controller  V=10m/s**
+
 ![Trajectory Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/MPC_Controller/MPC_Controller_10_Path.png)
 ![Velocity Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/MPC_Controller/MPC_Controller_10_Velocity.png)
 ![Heading Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/MPC_Controller/MPC_Controller_10_Heading.png)
 ![Lateral Distance Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/MPC_Controller/MPC_Controller_10_Lateral_Distance_Error.png)
 ![Velocity Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/MPC_Controller/MPC_Controller_10_Velocity_Error.png)
 ![Heading Error](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/MPC_Controller/MPC_Controller_10_Heading_Error.png)
-**V=15m/s**
+**MPC Controller V=15m/s**
 ![Trajectory Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/MPC_Controller/MPC_Controller_15_Path.png)
 ![Velocity Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/MPC_Controller/MPC_Controller_15_Velocity.png)
 ![Heading Tracking](https://github.com/djh1995555/VehicleControl/blob/master/control/plot_py/MPC_Controller/MPC_Controller_15_Heading.png)
