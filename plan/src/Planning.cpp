@@ -375,7 +375,7 @@ void Planning::CreateObstacles(int num)
     {
         prius_msgs::ObstacleAttr obstacle_attribute;
         //int id = (random(length/600-2)+2)*600;
-        int id = 1200*(2*i+1);
+        int id = 1000*(2*i+1);
         obstacle_attribute.id = id;
         // obstacle_attribute.x = global_trajectory.trajectory_info[id].x+(random(3)-1)*15;
         // obstacle_attribute.y = global_trajectory.trajectory_info[id].y+(random(3)-1)*15;

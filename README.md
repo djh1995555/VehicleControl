@@ -11,7 +11,7 @@
 * [Controllers](#controllers)
     * [Controller list](#controllers)
     * [Result PLot](#result-plot)
-    * [Other Plot](#other-plot)
+    * [Plot Method](#plot)
 * [Maintainers](#maintainers)
 
 # Introduction
@@ -135,6 +135,10 @@ change the **TARGET_PLOT** to choose which plot you want to see during simulatio
     * [MPC](#mpc)
 * Centralized Controllers
     * MPC (working in process)
+* [Error Comparison](#error-comparison)
+	* Velocity Error Comparison
+	* Lateral Distance Error Comparison
+	* Heading Error Comparison
 ## Result PLot(reverse)
 ![v=10m/s](https://github.com/djh1995555/VehicleControl/blob/master/result_plot/gif/pure_pursuit_reverse_10.gif) 
 ## Result PLot(forward)

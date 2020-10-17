@@ -145,7 +145,7 @@ void Control::TrajectoryCallback(const prius_msgs::My_Trajectory &trajectory)
         node.getParam("/trajectory_velocity",trajectory_velocity);
         string lateral_controller_name = controller_agent.lateral_controller;
         replace(lateral_controller_name.begin(),lateral_controller_name.end(),' ','_');
-        string simulation_result="/home/djh/ControlModule/src/control/plot_py/simulation_result/"+lateral_controller_name+'_'+trajectory_velocity+".txt";
+        string simulation_result="/home/djh/ControlModule/src/control/plot_py/simulation_result_"+lateral_controller_name+'_'+trajectory_velocity+".txt";
         ROS_INFO_STREAM("simulation_result is "<<simulation_result);
         ofs.open(simulation_result,ios::out);
         if(!ofs.is_open())
