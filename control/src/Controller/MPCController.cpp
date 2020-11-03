@@ -5,6 +5,7 @@ Status MPCController::Init(const ControlConf &control_conf)
     name = "MPC controller";
     prediction_length=control_conf.conf_param.MPC_predict_length;
     control_length=control_conf.conf_param.MPC_control_length;
+    preview_length = control_conf.conf_param.preview_length;
 
 
     Q(0,0) = control_conf.conf_param.MPC_Q_0_0;
@@ -145,17 +146,19 @@ Status MPCController::ComputeControlCmd(TrajectoryAnalyzer &trajectory_analyzer,
     ROS_INFO("Use MPC controller");
     ComputeStateError(trajectory_analyzer.goal_state,vehicle_state);
     current_velocity=vehicle_state.current_velocity;
-    //planned_velocity=trajectory_analyzer.goal_state.v;
+    planned_velocity=trajectory_analyzer.goal_state.v;
     planned_heading = trajectory_analyzer.goal_state.theta;
-    planned_steering_angle=GetPlannedSteeringAngle(trajectory_analyzer.goal_state);
+    int preview_id = trajectory_analyzer.goal_id+preview_length;
+    planned_steering_angle=GetPlannedSteeringAngle(trajectory_analyzer.trajectory_info[preview_id]);
+    
 
-    A(0,2) = -current_velocity *sin(planned_heading)*Ts;
-    A(1,2) = current_velocity*cos(planned_heading)*Ts;
+    A(0,2) = -planned_velocity *sin(planned_heading)*Ts;
+    A(1,2) = planned_velocity*cos(planned_heading)*Ts;
 /*     B(0,0) = Ts*cos(planned_heading);
     B(1,0) = Ts*sin(planned_heading);
     B(2,0) = Ts*tan(planned_steering_angle)/wheel_base;
     B(2,1) = planned_velocity*Ts/(wheel_base*cos(planned_steering_angle)*cos(planned_steering_angle)); */
-    B(2,0) = current_velocity*Ts/(wheel_base*cos(planned_steering_angle)*cos(planned_steering_angle));
+    B(2) = planned_velocity*Ts/(wheel_base*cos(previous_steering_angle)*cos(previous_steering_angle));
 
 
 
@@ -243,7 +246,7 @@ Status MPCController::ComputeControlCmd(TrajectoryAnalyzer &trajectory_analyzer,
     QPSolver.getPrimalSolution( xOpt );
     ROS_INFO_STREAM("xOpt = "<<xOpt[0]<<"; objVal = "<<QPSolver.getObjVal());
 
-    double steering_angle = xOpt[1]+planned_steering_angle;
+    double steering_angle = xOpt[0]+planned_steering_angle;
     previous_steering_angle = steering_angle;
     //double steering_angle = xOpt[1];
 
@@ -252,3 +255,4 @@ Status MPCController::ComputeControlCmd(TrajectoryAnalyzer &trajectory_analyzer,
     status.status = "OK";
     return status;
 }
+

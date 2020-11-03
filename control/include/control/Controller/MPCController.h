@@ -33,6 +33,7 @@ class MPCController:public Controller
 
     double prediction_length;
     double control_length;
+    double preview_length;
     double wheel_base;
     double previous_steering_angle=0.0;
 /*     vector<double> V_Q;

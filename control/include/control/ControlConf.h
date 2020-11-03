@@ -53,7 +53,8 @@ struct ConfParam
     double LQR_Q_2_2;
     double solve_tolerance;
     double max_iteration_num;
-    // MPC
+     // MPC
+    double preview_length;
     double MPC_R_0_0;
     double MPC_R_1_1;
     double MPC_Q_0_0;

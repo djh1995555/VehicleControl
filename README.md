@@ -77,8 +77,8 @@ Recording a trajectory is a good method to generate an availble trajectory in th
 
 1. find the plugin code  
 ```
-~$ cd catkin_ws/src/car_demo/plugins/
-~/catkin_ws/src//car_demo/plugins$ gedit PriusHybridPlugin.cc
+~$ cd catkin_ws/src/control/plugins/
+~/catkin_ws/src/control/plugins$ gedit PriusHybridPlugin.cc
 ```
 
 2. Switch on the recording function  
@@ -86,7 +86,7 @@ correct the **record_enabled** into **True**
 
 3. roslaunch 
 ```
-~$ roslaunch car_demo record_trajectory.launch
+~$ roslaunch control record_trajectory.launch
 ```
 
 4. record trajectory  
